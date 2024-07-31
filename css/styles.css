@@ -1,16 +1,18 @@
 .expandable{
-  background-color: #ededed;
+  background-color: #ededed89;
 }
 
 
 a{
   text-decoration: none;
-  color:#02488e;
+ font-weight:600;
+  color:#337ab7;
 }
 
 .info{
   text-decoration: none;
-  color:#02488e;
+  color:#00658c;
+  
 }
 
 
@@ -19,7 +21,7 @@ a{
 }
 
 .kk {
-  color: #ffffffb3;
+  color:white;
   font-size: 0.8125rem;
   font-weight: 600;
   padding-top: 10px;
@@ -38,7 +40,7 @@ a{
 
 
 .kkx {
-  color: #ffffffb3;
+  color:white;
   font-size: 0.9125rem;
   font-weight: 600;
   padding-top: 10px;
@@ -51,7 +53,7 @@ a{
 
 
 b {
-  color: #00356b;
+  color: #00658c;
 }
 
 .para{
@@ -59,11 +61,17 @@ b {
 }
 
 .sticky-top {
-  background-color: #e9e7e0;
+  background-color: #f1f0ea;
+}
+
+.sotu {
+  &:hover, &:focus {
+      color:#002147;
+    }
 }
 
 .ani {
-  color: #ffffffb3;
+  color:white;
   font-size: 0.9025rem;
   font-weight: 600;
   padding-top: 10px;
@@ -75,8 +83,9 @@ b {
 }
 
 
+
 .sotu {
-  color: #00356b;
+  color:#00658c;
   font-size: 1.2vw;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
@@ -92,12 +101,12 @@ b {
 }
 
 p{
-  font-family:sans-serif;
+  font-family: 'proxima-nova', "Helvetica Neue", Helvetica, sans-serif !important;
   font-size: .875rem;
 }
 
 .ibn {
-  background-color: #00356b;
+  background-color: #002147;
 }
 
 
