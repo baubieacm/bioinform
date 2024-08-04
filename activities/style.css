@@ -1,8 +1,16 @@
-.navbar{
-    background-color: #ae0e0e;
-    height: 100px;
+body{
+  background-color: black;
+}
+  
+.click{
+  background-color:#b81717;
+  color:aliceblue;
+  border-radius: 0px;
+  font-size: small;
+  text-align: start;
+  text-transform: uppercase;
+  
 }
 
-.space{
-    background-color: #e2e2e2;
-}
+
+  
