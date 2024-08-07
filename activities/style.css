@@ -1,16 +1,55 @@
-body{
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+.col-sm-4{
   background-color: black;
+  min-height: 100vh;
 }
-  
-.click{
-  background-color:#b81717;
-  color:aliceblue;
-  border-radius: 0px;
-  font-size: small;
-  text-align: start;
+
+.nav{
+  background-color:#ae0e0e;
+  border-radius: 0%;
+  text-align: center;
+  color:#ffffff;
   text-transform: uppercase;
-  
+  font-size: small;
+  padding-left: 8px;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 
+.nav:hover {
+  background-color:#bbb;
+  color:#ae0e0e;
+  font-weight: bold;
+}
+
+h3{
+  color:white;
+}
+
+.icon-link{
   
+  padding-left: 20px;
+  padding-right: 20px;
+}
