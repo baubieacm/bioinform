@@ -1,4 +1,11 @@
-
+.resources{
+  background-color: #bbbbbb57;
+  color:#ae0e0e;
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 10px;
+  border: #ae0e0e;
+}
 
 body {
   min-height: 100vh;
@@ -20,7 +27,7 @@ main {
 
 .col-sm-3{
   background-color: black;
- height: 100vh;
+  height: 100vh;
 }
 
 .mb-2{
@@ -81,4 +88,14 @@ h5:hover{
     position: relative !important;
   }
   
+}
+
+.books{
+ text-decoration: none;
+  font-weight: bold;
+  color:#ae0e0e;
+}
+
+.books:hover{
+  text-decoration: underline;
 }
