@@ -23,7 +23,9 @@ main {
  height: 100vh;
 }
 
-
+.mb-2{
+  font-weight: bold;
+}
 
 .nav{
   background-color:#ae0e0e;
