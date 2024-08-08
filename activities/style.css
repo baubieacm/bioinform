@@ -19,7 +19,7 @@ main {
 }
 
 
-.col-sm-4{
+.col-sm-3{
   background-color: black;
   min-height: 100vh;
 }
@@ -30,7 +30,7 @@ main {
   text-align: center;
   color:#ffffff;
   text-transform: uppercase;
-  font-size: small;
+  font-size: 10px;
   padding-left: 8px;
   border: none;
   transition-duration: 0.4s;
@@ -44,12 +44,23 @@ main {
   font-weight: bold;
 }
 
-h3{
-  color:white;
+.activ{
+  background-color:#bbb;
+  color:#ae0e0e;
+  font-weight: bold;
 }
+
 
 .icon-link{
   
   padding-left: 20px;
   padding-right: 20px;
+}
+
+h3{
+  text-align: center;
+}
+
+.heading{
+  color: #ffffff;
 }
